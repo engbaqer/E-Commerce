@@ -1,0 +1,122 @@
+
+.nav{
+ margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+margin-bottom:30px ;
+
+}
+/* ===========lift section =====================*/
+.logo_section {
+display: flex;
+align-items: center;
+
+}
+.logo_section img{
+    width: 50px;
+
+}
+.logo_section p{
+font-size:25px;
+
+}
+@media (max-width:500px) {
+    .logo_section p{
+        font-size: small;
+    }
+}
+
+/* ===========lift section =====================*/
+/* ===========mnu section =====================*/
+.mnu{
+    display: flex;
+    
+}
+.mnu ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    
+}
+.mnu ul li {
+    cursor: pointer;
+    font-size: large;
+    font-weight:bold;
+}
+.mnu ul li  hr{
+    border-top: 1px solid #fa0000;}
+    a:-webkit-any-link{ text-decoration: none;
+    color:inherit }
+
+/* ===========mnu section =====================*/
+/* ===========right section  section =====================*/
+
+.right_section{
+display: flex;
+align-items: center;
+
+}
+.right_section img{
+width: 30px;
+}
+.right_section  button{
+    width: 100px;
+    height: 50px;
+    border: 0.5px solid rgb(164, 159, 159);
+    border-radius: 78px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.counter {
+    position: relative;
+    width:14px;
+    height: 14px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 13px;
+    right: 10px;
+    color: aliceblue;
+padding-bottom: 1.5px;
+}
+.hr_nav{
+    opacity: 0.3;
+}
+
+
+
+
+
+
+
+
+
+/* ===========right section  section =====================*/
+
+@media (max-width:500px) {
+    .nav{
+        margin: 10px 10px 5px  10px;
+    }
+    .logo_section p{
+        font-size: 15px;
+    }
+    .logo_section img{
+width: 25px;    }
+    .mnu{
+        margin-left:5px ;
+        margin-right:5px ;
+
+    }
+    .mnu ul li {
+        font-size: 10px;
+    }
+    .right_section img{
+        width: 20px;
+
+    }
+    .right_section button{
+        width: 25px;
+        font-size:10px;
+    };
+}

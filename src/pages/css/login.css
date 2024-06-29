@@ -1,0 +1,39 @@
+.loginSignup{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(180deg , #fde1ff , #e1ffea22 60% );
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.loginSignup h1{
+font-size: 40px;
+margin: 10px 0;
+}
+.loginSignup .loginsingnup-contenar form{
+    display: flex;
+    flex-direction: column;
+gap: 30px;
+
+} 
+.loginSignup .loginsingnup-contenar form input{
+    width: 300px;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+.loginSignup  p span {
+    cursor: pointer;
+    color: blue;
+}
+.loginSignup .loginsingnup-contenar .submit{
+    cursor: pointer;
+}
+
+
+
+.hide{
+    display: none;
+}

@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer hr{
+    width: 80%;
+    border-radius: 20px;
+}
+.footer p{
+    display: block;
+    opacity: 0.5;
+}
